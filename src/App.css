@@ -1,0 +1,11 @@
+.section__padding {
+  padding: 0 15%;
+}
+
+*{
+  -ms-overflow-style: none;
+  cursor: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

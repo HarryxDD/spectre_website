@@ -1,0 +1,19 @@
+.app__thanks {
+    background-color: black;
+    height: 40vh;
+    color: white;
+    font-family: var(--font-base);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.app__thanks h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.app__thanks p {
+    font-size: 30px;
+}

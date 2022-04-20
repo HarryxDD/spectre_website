@@ -1,0 +1,52 @@
+.app__services {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 300vh;
+    overflow-x: hidden;
+}
+
+.services__title {
+    position: absolute;
+    color: white;
+    font-family: var(--font-base);
+    font-size: 400px;
+    font-weight: 700;
+    left: -500px;
+}
+
+.services__logo {
+    position:absolute;
+    width: 1000px;
+    margin-top: 500px;
+}
+
+.services__logo img {
+    width: 100%;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    padding-top: 500px;
+    font-family: var(--font-base);
+    color: white;
+}
+
+#left_list {
+    position: absolute;
+    
+}
+
+#right_list {
+    position: absolute;
+    padding-top: 200px;
+    right: 90px;
+}
+
+
+
+
