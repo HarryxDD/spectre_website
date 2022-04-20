@@ -2,6 +2,8 @@
     margin-right: 100px;
     margin-bottom: 100px;
     z-index: 500;
+    width: 395px;
+    height: 560px;
 }
 
 .item__image {
@@ -54,4 +56,35 @@
 
 .item:hover .item__desc p {
     margin-left: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .item__image {
+        width: 345px;
+        height: 510px;
+    }   
+}
+
+@media screen and (max-width: 1150px) {
+    .item__image {
+        width: 295px;
+        height: 460px;
+    }   
+}
+
+@media screen and (max-width: 1024px) {
+    .item__image {
+        width: 245px;
+        height: 410px;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        margin-right: 0;
+    }
+
+    .item__image {
+        width: 100%;
+    }
 }
